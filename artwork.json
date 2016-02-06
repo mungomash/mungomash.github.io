@@ -2,16 +2,32 @@
     {
         "url": "Thermometor.html",
         "src": "Thermometor.png",
-        "artist_id": 1
+        "artist_id": 1,
+        "page": "clip_art",
+        "created_at": ""
     },
     {
         "url": "convertable7.html",
         "src": "convertable7.jpg",
-        "artist_id": 1
+        "artist_id": 1,
+        "page": "clip_art",
+        "created_at": ""
+
     },
     {
         "url": "Thinkonthesethingsnew.html",
         "src": "Thinkonthesethingsnew.png",
-        "artist_id": 1
+        "artist_id": 1,
+        "page": "clip_art",
+        "created_at": ""
+
+    },
+    {
+        "url": "fighters.html",
+        "src": "fighters.PNG",
+        "artist_id": 3,
+        "page": "sketches",
+        "created_at": ""
+        
     }
 ]
