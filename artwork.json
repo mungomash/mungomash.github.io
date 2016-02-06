@@ -1,14 +1,17 @@
 [
     {
         "url": "Thermometor.html",
-        "src": "Thermometor.png"
+        "src": "Thermometor.png",
+        "artist_id": 1
     },
     {
         "url": "convertable7.html",
-        "src": "convertable7.jpg"
+        "src": "convertable7.jpg",
+        "artist_id": 1
     },
     {
         "url": "Thinkonthesethingsnew.html",
-        "src": "Thinkonthesethingsnew.png"
+        "src": "Thinkonthesethingsnew.png",
+        "artist_id": 1
     }
 ]
