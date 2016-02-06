@@ -2,11 +2,11 @@
 <html>
 <head>
 	<title>Clip Art</title>
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-
-
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
 </head>
 <body style="background-color:#E8E8E8;">
+<script src="handlebars-v4.0.5.js"></script>
+<script src="data.js"></script>
 <?php include_once("analyticstracking.php") ?>
 	 <nav class="navbar navbar-default navbar-top">
   		<div class="container-fluid">
@@ -34,43 +34,38 @@
 <div class="well">
       <div class="container" style="padding-top:60px;">
         <table style="width:100%">
-          <tr>
+          <tr id="clip_art_row">
              <td>
-               <div class = "panel panel-default" style="width:200px;">
-                                <div class = "panel-body">
-                                     <a href="Thermometor.html"><img src="Thermometor.png" alt="Thermometor" style="width:100%;height:100%;"></a>
-                                </div>
-                                
-                                <div class = "panel-footer">
-                                     Amanda Dalton
-                                </div>
-                            </div>
-             </td>
-             <td>
-               <div class = "panel panel-default" style="width:200px;">
-                                <div class = "panel-body">
-                                    <a href="convertable7.html"><img src="convertable7.jpg" alt="Convertable" style="width:100%;height:100%;"></a>
-                                </div>
-                                
-                                <div class = "panel-footer">
-                                     Amanda Dalton
-                                </div>
-                            </div>
-             </td>
-             <td>
-               <div class = "panel panel-default" style="width:200px;">
-                                <div class = "panel-body">
-                                     <a href="Thinkonthesethingsnew.html"><img src="Thinkonthesethingsnew.png" alt="Light Bulb" style="width:100%;height:100%;"></a>
-                                </div>
-                                
-                                <div class = "panel-footer">
-                                     Amanda Dalton
-                                </div>
-                            </div>
-             </td>
+
+              </td>
             </tr>
           </table>
         </div>
-        </div>
+</div>
+
+              <script>
+              
+              var source = "{{#each artwork}}" +
+                           "<td>" +
+                           "<div class = 'panel panel-default' style='width:200px;'>" +
+                                "<div class = 'panel-body'>" +
+                                     "<a href='{{url}}'><img src='{{src}}' alt='{{url}}' style='width:100%;height:100%;'></a>" +
+                                "</div>" +
+                                "<div class = 'panel-footer'>" +
+                                     "Amanda Dalton" +
+                                "</div>" +
+                            "</div>" +
+                            "</td>" +
+                           "{{/each}}";
+
+              var template = Handlebars.compile(source);
+
+              load_artwork(function(list) {
+                var result = template({ artwork : list });
+                document.getElementById("clip_art_row").innerHTML = result;
+              });
+
+              </script>
+
 </body>
 </html>
