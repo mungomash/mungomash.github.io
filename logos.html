@@ -2,12 +2,11 @@
 <html>
 <head>
 	<title>Categories</title>
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-
-
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
 </head>
 <body style="background-color:#E8E8E8;">
-<?php include_once("analyticstracking.php") ?>
+<script src="handlebars-v4.0.5.js"></script>
+<script src="data.js"></script>
 	<nav class="navbar navbar-default navbar-top">
   		<div class="container-fluid">
     		<div class="navbar-header">
@@ -31,7 +30,20 @@
         <li class="active">Logos</li>
     </ol>
 
+
 <div class="well">
+      <div class="container" style="padding-top:60px;">
+        <table style="width:100%">
+          <tr id="clip_art_row">
+             <td>
+
+              </td>
+            </tr>
+          </table>
+        </div>
+</div>
+
+<!--<div class="well">
 <div class="container" style="padding-top:60px;">
         <table style="width:100%">
              
@@ -75,8 +87,11 @@
              </tr>
           </table>
 </div>
-</div>
+</div>-->
 
+<script>
+loadPageArtwork();
+</script>
 
 </body>
 </html>

@@ -7,7 +7,6 @@
 <body style="background-color:#E8E8E8;">
 <script src="handlebars-v4.0.5.js"></script>
 <script src="data.js"></script>
-<?php include_once("analyticstracking.php") ?>
 	 <nav class="navbar navbar-default navbar-top">
   		<div class="container-fluid">
     		<div class="navbar-header">
@@ -44,27 +43,7 @@
 </div>
 
 <script>
-var source = "{{#each artwork}}" +
-             "<td>" +
-             "<div class = 'panel panel-default' style='width:200px;'>" +
-                  "<div class = 'panel-body'>" +
-                       "<a href='{{url}}'><img src='{{src}}' alt='{{url}}' style='width:100%;height:100%;'></a>" +
-                  "</div>" +
-                  "<div class = 'panel-footer'>" +
-                       "{{artist}}" +
-                  "</div>" +
-              "</div>" +
-              "</td>" +
-             "{{/each}}";
-
-             
-
-var template = Handlebars.compile(source);
-
-load_artwork(function(list) {
-  var result = template({ artwork : list });
-  document.getElementById("clip_art_row").innerHTML = result;
-});
+loadPageArtwork();
 </script>
 
 </body>
