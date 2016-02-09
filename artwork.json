@@ -14,7 +14,6 @@
         "page": "/clip_art.html",
         "created_at": "2016-01-02T07:16:00.111Z",
         "picture_name": "Convertable"
-
     },
     {
         "url": "Thinkonthesethingsnew.html",
@@ -23,7 +22,6 @@
         "page": "/clip_art.html",
         "created_at": "2016-01-02T07:17:00.111Z",
         "picture_name": "Think on These Things"
-
     },
     {
         "url": "fighters.html",
@@ -31,8 +29,7 @@
         "artist_id": 3,
         "page": "/sketches.html",
         "created_at": "2016-01-02T07:18:00.111Z",
-        "picture_name": ""
-
+        "picture_name": "Wolf Pack"
     },
     {
         "url": "logorunnur.html",
@@ -41,6 +38,182 @@
         "page": "/logos.html",
         "created_at": "2016-02-09T6:20:00.000Z",
         "picture_name": "Runnur Logo"
+    },
+    {
+        "url": "IndyGoldLogoblacksinglets.html",
+        "src": "pictures/IndyGoldLogoblacksinglets.png",
+        "artist_id": 1,
+        "page": "/logos.html",
+        "created_at": "2016-02-09T6:20:00.000Z",
+        "picture_name": "Indy Gold Singlet Design"
+    },
+    {
+        "url": "livewire_new_proof.html",
+        "src": "pictures/livewire_new_proof.jpg",
+        "artist_id": 1,
+        "page": "/logos.html",
+        "created_at": "2016-02-09T6:20:00.000Z",
+        "picture_name": "Livewire Logo"
+    },
+    {
+        "url": "greenhorse.html",
+        "src": "pictures/greenhorse.PNG",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.000Z",
+        "picture_name": "Green Horse",
+    },
+    {
+        "url": "pinkdress.html",
+        "src": "pictures/pinkdress.PNG",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.002Z",
+        "picture_name": "Pink Dress",
+    },
+    {
+        "url": "gru.html",
+        "src": "pictures/gru.PNG",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.004Z",
+        "picture_name": "Gru",
+    },
+    {
+        "url": "redpink.html",
+        "src": "pictures/redpink.PNG",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.006Z",
+        "picture_name": "Red Pink",
+    },
+    {
+        "url": "Trees_2.html",
+        "src": "pictures/Trees_2.jpg",
+        "artist_id": 2,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.008Z",
+        "picture_name": "Trees",
+    },
+    {
+        "url": "blondecamera.html",
+        "src": "pictures/blondecamera.PNG",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.010Z",
+        "picture_name": "Inception",
+    },
+    {
+        "url": "wingedheart.html",
+        "src": "pictures/wingedheart.jpg",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.012Z",
+        "picture_name": "Winged Heart",
+    },
+    {
+        "url": "dragongreen.html",
+        "src": "pictures/dragongreen.jpg",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.014Z",
+        "picture_name": "Green Dragon",
+    },
+    {
+        "url": "blueandbrown.html",
+        "src": "pictures/blueandbrown.jpg",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.016Z",
+        "picture_name": "Blue and Brown Dress",
+    },
+    {
+        "url": "imsuprized.html",
+        "src": "pictures/imsuprized.jpg",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.018Z",
+        "picture_name": "Shocking",
+    },
+    {
+        "url": "theemmasit.html",
+        "src": "pictures/theemmasit.jpg",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.020Z",
+        "picture_name": "Sitting Down",
+    },
+    {
+        "url": "dogandcat.html",
+        "src": "pictures/dogandcat.jpeg",
+        "artist_id": 2,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.022Z",
+        "picture_name": "Dog and Cat Love",
+    },
+    {
+        "url": "meandmybear.html",
+        "src": "pictures/meandmybear.jpg",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.024Z",
+        "picture_name": "Me and My Bear",
+    },
+    {
+        "url": "yellowandredchief.html",
+        "src": "pictures/yellowandredchief.jpg",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.026Z",
+        "picture_name": "Yellow and Red Chief",
+    },
+    {
+        "url": "wonderwoman.html",
+        "src": "pictures/wonderwoman.jpg",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.028Z",
+        "picture_name": "Wonder Woman",
+    },
+    {
+        "url": "spiderman.html",
+        "src": "pictures/spiderman.jpg",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.030Z",
+        "picture_name": "Spiderman",
+    },
+    {
+        "url": "holdmyhand.html",
+        "src": "pictures/holdmyhand.jpg",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.032Z",
+        "picture_name": "Hold my Hand",
+    },
+    {
+        "url": "crazyhair.html",
+        "src": "pictures/crazyhair.jpg",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.034Z",
+        "picture_name": "Crazy Hair",
+    },
+    {
+        "url": "oneeye.html",
+        "src": "pictures/oneeye.jpg",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.036Z",
+        "picture_name": "One Hair",
+    },
+    {
+        "url": "girlchief.html",
+        "src": "pictures/girlchief.jpg",
+        "artist_id": 3,
+        "page": "/sketches.html",
+        "created_at": "2016-01-01T7:00:00.038Z",
+        "picture_name": "Girl Chief",
     }
 ]
 
