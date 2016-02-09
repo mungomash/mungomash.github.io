@@ -4,24 +4,30 @@ function load_artwork(page, callback) {
 
         loadJSON('artwork.json', function(response) {
             artwork = JSON.parse(response);
+            var result = [];
 
             for (a = 0; a < artwork.length; a++) {
+                var item;
+
                 if (artwork[a].page != page) {
-                    artwork.splice(a);
-                        break;
+                    break;
+                } else {
+                    item = artwork[a];
+                    result.push(item);
                 }
-                alert(artwork[a].url);
-                artwork[a].artist = "unknown";
+
+                alert(item.url);
+                item.artist = "unknown";
                 
                 for (p = 0; p < people.length; p++) {
-                    if (artwork[a].artist_id == people[p].id) {
-                        artwork[a].artist = people[p].first_name + " " + people[p].last_name;
+                    if (item.artist_id == people[p].id) {
+                        item.artist = people[p].first_name + " " + people[p].last_name;
                     }
                 }
             }
             console.log("Almost there...");
-            callback(artwork);
-            console.log("Succes");
+            callback(result);
+            console.log("Success");
         });
     });
 
