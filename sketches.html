@@ -3,13 +3,11 @@
 <head>
 	<title>Mungomash</title>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-    
-    <script src="sketches.js"></script>
-
 
 </head>
 <body style="background-color:#E8E8E8;">
-<?php include_once("analyticstracking.php") ?>
+<script src="handlebars-v4.0.5.js"></script>
+<script src="data.js"></script>
 	<nav class="navbar navbar-default navbar-top">
   		<div class="container-fluid">
     		<div class="navbar-header">
@@ -33,6 +31,24 @@
     </ol>
 
 <div class="well">
+      <div class="container" style="padding-top:60px;">
+        <table style="width:100%">
+          <tr id="art_row">
+             <td>
+
+              </td>
+            </tr>
+          </table>
+        </div>
+</div>
+
+
+<script>
+alert(window.location.pathname);
+loadPageArtwork();
+</script>
+
+<!--- <div class="well">
 <div class="container" style="padding-top:60px;" id="gallery" class="scroll">
 <table style="width:100%" id="images">
   <tr>
@@ -279,7 +295,7 @@
       </td>
   </tr>
 </table>
-</div>
+</div> --->
 
 <div style="width:100%; height:100%; padding-left: 30px; text-align: center; " >
   <p style="font-size:30px;">

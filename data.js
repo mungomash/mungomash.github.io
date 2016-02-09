@@ -49,7 +49,7 @@ function loadJSON(fileName, callback) {
              "<td>" +
              "<div class = 'panel panel-default' style='width:200px;'>" +
                   "<div class = 'panel-body'>" +
-                       "<a href='{{url}}'><img src='{{src}}' alt='{{url}}' style='width:100%;height:100%;'></a>" +
+                       "<a href='{{url}}'><img src='{{src}}' alt='{{picture_name}}' style='width:100%;height:100%;'></a>" +
                   "</div>" +
                   "<div class = 'panel-footer'>" +
                        "{{artist}}" +
@@ -65,7 +65,7 @@ var template = Handlebars.compile(source);
 function loadPageArtwork() {
     load_artwork(window.location.pathname, function(list) {
         var result = template({ artwork : list });
-        document.getElementById("clip_art_row").innerHTML = result;
+        document.getElementById("art_row").innerHTML = result;
     });
 }
 
