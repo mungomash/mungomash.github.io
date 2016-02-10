@@ -10,13 +10,13 @@ function load_artwork(page, callback) {
                 var item;
 
                 if (artwork[a].page != page) {
-                    break;
+                    continue;
                 } else {
                     item = artwork[a];
                     result.push(item);
                 }
 
-                alert(item.url);
+                console.log(item.url);
                 item.artist = "unknown";
                 
                 for (p = 0; p < people.length; p++) {
