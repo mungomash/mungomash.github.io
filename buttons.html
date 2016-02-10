@@ -16,6 +16,8 @@
   ga('send', 'pageview');
 
 </script>
+<script src="handlebars-v4.0.5.js"></script>
+<script src="data.js"></script>
 	<nav class="navbar navbar-default navbar-top">
   		<div class="container-fluid">
     		<div class="navbar-header">
@@ -39,31 +41,20 @@
     </ol>
 
 <div class="well">
-  <div class="container" style="padding-top:60px;">
+      <div class="container" style="padding-top:60px;">
         <table style="width:100%">
-          <tr>
+          <tr id="art_row">
              <td>
-               <div class = "panel panel-default" style="width:200px;">
-                                <div class = "panel-body">
-                                    <a href="waterbutton4.html"><img src="pictures/waterbutton4.png" alt="Water Button" style="width:100%;height:100%;"></a>
 
-                                </div>
-                                
-                                <div class = "panel-footer">
-                                     Amanda Dalton
-                                </div>
-                            </div>
-             </td>
+              </td>
             </tr>
           </table>
         </div>
 </div>
 
-    <div class="container" style="padding-top:60px;">
-
-
-
-    </div>
+<script>
+loadPageArtwork();
+</script>
 
 
 </body>
