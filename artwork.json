@@ -318,6 +318,12 @@
         "page": "/buttons.html",
         "created_at": "2016-01-01T7:00:00.064Z",
         "picture_name": "Water Button"
+    },
+    {
+        "src": "pictures/Mungomashlogo.png",
+        "artist_id": 1,
+        "created_at": "2016-02-29T7:00:01:000Z",
+        "picture_name": "Mungomash Logo"
     }
 ]
 
